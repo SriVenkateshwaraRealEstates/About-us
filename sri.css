@@ -842,6 +842,251 @@ text-align: left;
     transition: 1s;
     color: black;
 }
+/*---------------------@media---------------*/
+@media (max-width: 700px) {
+    body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-color: #E9E8E4;
+    }
+    
+    nav {
+        padding: 2% 3%;
+    }
+    
+    .nav-links ul li {
+        display: block;
+        padding: 8px 0;
+        text-align: left;
+    }
+    
+    .nav-links ul li a {
+        font-size: 16px;
+    }
+    
+    .text-box {
+        width: 80%;
+        top: 20%;
+        left: 5%;
+    }
+    
+    .text-box h1 {
+        font-size: 40px;
+    }
+    
+    .estate .text {
+        width: 90%;
+        left: 5%;
+        top: 120%;
+    }
+    
+    .estate .text h2 {
+        font-size: 24px;
+        padding-top: 20%;
+    }
+    
+    .estate .text p {
+        font-size: 16px;
+        padding-top: 5%;
+    }
+    
+    .button {
+        top: 130%;
+        left: 5%;
+        font-size: 20px;
+        padding: 8px 20px;
+    }
+    
+    .img {
+        width: 90%;
+        padding: 5% 5%;
+    }
+    
+    .img img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .Our-Numbers h2 {
+        font-size: 30px;
+        padding-top: 15%;
+    }
+    
+    .Our-Numbers p {
+        font-size: 18px;
+    }
+    
+    .counter1, .counter2, .counter3 {
+        width: 80%;
+        left: 10%;
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+    
+    .counter1 h2, .counter2 h2, .counter3 h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .counter1 p, .counter2 p, .counter3 p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .Discovering {
+        padding: 40px 10px;
+    }
+    
+    .Home {
+        width: 90%;
+        padding: 20px 10px;
+    }
+    
+    .Home h2 {
+        font-size: 28px;
+    }
+    
+    .Home p {
+        font-size: 18px;
+        padding-left: 10%;
+    }
+    
+    .phone {
+        padding: 40px 10px;
+    }
+    
+    .phone1 {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    
+    .phone1 h2 {
+        font-size: 28px;
+    }
+    
+    .phone1 h4 {
+        font-size: 18px;
+    }
+    
+    .phone1 p {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    
+    .button1 {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    
+    .footer {
+        padding: 20px 10px;
+    }
+    
+    .footer h4 {
+        font-size: 18px;
+    }
+    
+    .icons {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    
+    .SriAgency {
+        flex-direction: column;
+    }
+    
+    .img1, .srivenkateshwara {
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+    .srivenkateshwara h2, .srivenkateshwara h3 {
+        font-size: 24px;
+    }
+    
+    .srivenkateshwara p {
+        font-size: 16px;
+    }
+    
+    .Oursingular {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .OurSingularGoalimg, .OurSingularGoal {
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+    .OurSingularGoal h2 {
+        font-size: 24px;
+    }
+    
+    .OurSingularGoal p {
+        font-size: 16px;
+    }
+    
+    .Wehave {
+        flex-direction: column;
+    }
+    
+    .Wehaveimg, .Wehavehelped {
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+    .Wehavehelped h2 {
+        font-size: 30px;
+    }
+    
+    .Wehavehelped p {
+        font-size: 16px;
+    }
+    
+    .Thatsthevalue h2 {
+        font-size: 30px;
+    }
+    
+    .Thatsthevalue p {
+        font-size: 16px;
+    }
+    
+    .Location, .Quality, .Transparency, .Commitment, .Accessibility, .Trust {
+        width: 100%;
+        padding: 20px 5%;
+    }
+    
+    .Sathyanarayana {
+        flex-direction: column;
+    }
+    
+    .Sathyanarayanaimg, .Sathyanarayana1 {
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+    .Sathyanarayana1 h2 {
+        font-size: 30px;
+    }
+    
+    .Sathyanarayana1 h3 {
+        font-size: 16px;
+    }
+    
+    .Email, .call {
+        width: 100%;
+        padding-top: 5%;
+    }
+    
+    .button2, .button3 {
+        top: auto;
+        left: 5%;
+        padding: 8px 20px;
+    }
+}
 
 
 
